@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif:ital@0;1&display=swap');
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+#head {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 1440px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #0B3BE2 0%, rgba(11, 59, 226, 0) 355.26%);
+
+}
+
+.logo_3D {
+    height: 140px;
+    filter: drop-shadow(0px 6px 4px rgba(197, 255, 251, 0.25));
+}
+
+#title_logo {
+    position: absolute;
+    width: 341px;
+    height: 32px;
+    left: 577px;
+    top: 10px;
+    
+}
+
+#title_logo_01 {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFEFA;
+
+}
+
+#title_logo_02 {
+    /* position: absolute;
+    width: 341px;
+    height: 32px;
+    left: 577px;
+    top: 112px; */
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #FFFEFC;
+
+}
+
+/* #menu_hamb {
+
+    
+} */
+.container-lg {
+    background: rgba(65, 84, 255, 0.54);
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+
+#conteiner {
+    position: absolute;
+    width: 1440px;
+    height: 837px;
+    left: 0px;
+    top: 187px;
+    
+    background: rgba(65, 84, 255, 0.54);
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+#how_are {
+    position: absolute;
+    width: 569px;
+    height: 360px;
+    left: 38px;
+    top: 234px;
+    
+    background: #EEEEEE;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#carroussel_conteiner {
+    position: absolute;
+    width: 569px;
+    height: 360px;
+    left: 38px;
+    top: 632px;
+    
+    background: #EEEEEE;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#carr_01 {
+    position: absolute;
+    width: 175px;
+    height: 235px;
+    left: 97px;
+    top: 646px;
+    
+    background: #D9D9D9;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#carr_02 {
+    position: absolute;
+    width: 175px;
+    height: 235px;
+    left: 235px;
+    top: 683px;
+    
+    background: #D9D9D9;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#carr_03 {
+    position: absolute;
+    width: 175px;
+    height: 235px;
+    left: 373px;
+    top: 646px;
+    
+    background: #D9D9D9;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#adverts {
+    position: absolute;
+    width: 733px;
+    height: 360px;
+    left: 677px;
+    top: 237px;
+    
+    background: #EEEEEE;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#dash {
+    position: absolute;
+    width: 569px;
+    height: 360px;
+    left: 759px;
+    top: 632px;
+    
+    background: #EEEEEE;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+#title_land {
+    position: absolute;
+    width: 379px;
+    height: 32px;
+    left: 133px;
+    top: 256px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #0B3BE2;
+}
